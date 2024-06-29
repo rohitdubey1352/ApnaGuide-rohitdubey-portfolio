@@ -236,10 +236,9 @@ possible:
 
 ## 📞 Contact Us
 
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-rohit-dubey-7743a81a3-blue?style=flat&logo=linkedin&logoColor=b0c0c0&labelColor=363D44)](https://www.linkedin.com/in/rohit-dubey-7743a81a3/)
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-rohit-dubey-7743a81a3-blue?style=flat&logo=linkedin&logoColor=ffffff&labelColor=000000)](https://www.linkedin.com/in/rohit-dubey-7743a81a3/)
 
 [![Github](https://img.shields.io/badge/Github-rohitdubey1352-blue?style=flat&logo=Github&logoColor=ffffff&labelColor=000000)](https://github.com/rohitdubey1352/)
-
 
 
 
