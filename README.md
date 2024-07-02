@@ -8,113 +8,6 @@ Explore the live demonstration of the project:
 https://rohitdubey-portfolio.vercel.app/
 
 
-## 📝 Description
-
-<details><summary><b>Folder Structure</b></summary>
-
-```bash
-rohitdubey-portfolio/
-├── src/
-├   ├── App.tsx
-├   ├── globals.css
-├   ├── main.tsx
-├   ├── vite.env.d.ts
-├   ├── components/
-├   ├   ├── atoms/
-├   ├   ├   └── Header.tsx
-├   ├   ├── canvas/
-├   ├   ├   ├── Ball.tsx
-├   ├   ├   ├── Computers.tsx
-├   ├   ├   ├── Earth.tsx
-├   ├   ├   ├── Stars.tsx
-├   ├   ├   └── index.ts
-├   ├   ├── layout/
-├   ├   ├   ├── Loader.tsx
-├   ├   ├   └── Navbar.tsx
-├   ├   ├── sections/
-├   ├   ├   ├── About.tsx
-├   ├   ├   ├── Contact.tsx
-├   ├   ├   ├── Experience.tsx
-├   ├   ├   ├── Feedbacks.tsx
-├   ├   ├   ├── Hero.tsx
-├   ├   ├   ├── Tech.tsx
-├   ├   ├   ├── Works.tsx
-├   ├   ├   └── page.tsx
-├   ├   └── index.ts
-├   ├── constants/
-├   ├   ├── config.ts
-├   ├   ├── styles.ts
-├   ├   └── index.ts
-├   ├── hoc/
-├   ├   ├── SectionWrapper.tsx
-├   ├   └── index.ts
-├   ├── utils/
-├   ├   └── motion.ts
-├   ├── types/
-├   ├   └── index.d.ts
-├   └── assets/
-├       ├── company/
-├       ├   └── [[...]].{svg,png}
-├       ├── tech/
-├       ├   └── [[...]].{svg,png}
-├       ├── [[...]].{svg,png}
-├       └── index.ts
-├── public/
-├   ├── desktop_pc
-├   ├   ├── textures/[[...]].png
-├   ├   ├── license.txt
-├   ├   ├── scene.bin
-├   ├   └── scene.gltf
-├   ├── planet
-├   ├   ├── textures/[[...]].png
-├   ├   ├── license.txt
-├   ├   ├── scene.bin
-├   ├   └── scene.gltf
-├   ├── logo.png
-├   └── logo.svg
-├── .env
-├── .eslintignore
-├── .eslintrc.cjs
-├── .gitignore
-├── .prettierignore
-├── .prettierrc.cjs
-├── index.html
-├── LICENSE
-├── README.md
-├── package.json
-├── postcss.config.cjs
-├── tailwind.config.cjs
-├── tsconfig.json
-├── tsconfig.node.json
-└── vite.config.js
-```
-
-</details>
-
-## 📖 Table of Contents
-
-<details><summary>Table of Contents</summary>
-
-- [Live Demo](#-live-demo)
-- [Description](#-description)
-- [Technologies Used](#-technologies-used)
-- [Get Started](#-get-started)
-  - [Prerequisites](#-prerequisites)
-  - [Installation and Run Locally](#-installation-and-run-locally)
-  - [Scripts](#-scripts)
-- [Environment Variables](#-environment-variables)
-- [Deployment](#-deployment)
-  - [Deploy to production (manual)](#-deploy-to-production-manual)
-  - [Deploy on Vercel (recommended)](#-deploy-on-vercel-recommended)
-  - [Deploy on Netlify](#-deploy-on-netlify)
-- [Contributing](#-contributing)
-  - [Bug / Feature Request](#-bug--feature-request)
-- [Acknowledgements](#-acknowledgements)
-- [References](#-references)
-- [Contact Us](#-contact-us)
-
-</details>
-
 ## ✨ Technologies Used
 
 <details><summary><b>3D Portfolio</b> is built using the following technologies:</summary>
@@ -142,35 +35,17 @@ rohitdubey-portfolio/
 
 [![Technologies Used](https://skillicons.dev/icons?i=ts,vite,react,threejs,tailwind,vercel)](https://skillicons.dev)
 
-## 🧰 Get Started
 
-To get this project up and running in your development environment, follow these step-by-step
-instructions.
-
-### 📋 Prerequisites
-
-In order to install and run this project locally, you would need to have the following installed on
-your local machine.
-
-- [Node.js](https://nodejs.org/en/)
-- [NPM](https://www.npmjs.com/get-npm)
-- [Git](https://git-scm.com/downloads)
 
 ### ⚙️ Installation and Run Locally
 
-**Step 0:**
-
-Note :bangbang: the application uses EmailJS in order to send emails using client-side, therefore,
-you need to create EmailJS account [here](https://emailjs.com/) and sets the
-`VITE_EMAILJS_SERVICE_ID`, `VITE_EMAILJS_TEMPLATE_ID`, and `VITE_EMAIL_JS_ACCESS_TOKEN` environment
-variables in `.env` file.
 
 **Step 1:**
 
 Download or clone this repo by using the link below:
 
 ```bash
-git clone https://github.com/ladunjexa/reactjs18-3d-portfolio.git
+git clone https://github.com/rohitdubey1352/rohitdubey-portfolio.git
 ```
 
 **Step 2:**
@@ -216,11 +91,6 @@ The easiest way to deploy this Next.js app is to use the
 
 You can also deploy this Next.js app with [Netlify](https://www.netlify.com/).
 
-[![Deploy with Netlify](https://www.netlify.com/img/deploy/button.svg)](https://app.netlify.com/start/deploy?repository=https://github.com/ladunjexa/reactjs18-3d-portfolio)
-
-Check out [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
-
-
 ## 💎 Acknowledgements
 
 I'd like to express my gratitude to the following people who helped me with this project and made it
@@ -244,9 +114,3 @@ possible:
 [![Github](https://img.shields.io/badge/Github-rohitdubey1352-blue?style=flat&logo=Github&logoColor=ffffff&labelColor=000000)](https://github.com/rohitdubey1352/)
 
 
-
-## 📋 License
-
-**Three.js 3D Portfolio** is open source software
-[licensed as MIT](https://opensource.org/license/mit/) and is free to use — See
-[LICENSE](https://github.com/ladunjexa/reactjs18-3d-portfolio/blob/main/LICENSE) for more details.
